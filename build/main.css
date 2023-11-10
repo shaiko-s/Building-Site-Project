@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 /* Reset and base styles  */
 * {
   padding: 0px;
@@ -97,16 +98,21 @@ legend {
 .container .header .logo {
   width: 379px;
   height: 55px;
+  margin: 42px auto auto 144px;
 }
 .container .header .logo img {
   float: left;
   margin: 8px auto 9px auto;
 }
-.container .header .logo span {
-  font-size: 14px;
+.container .header .logo .top {
+  font-size: 14.2px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
-.container .header .logo h2 {
+.container .header .logo .bottom {
   font-size: 25px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
 }
 .container .main .mainTitle {
   color: #FFF;
