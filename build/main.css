@@ -85,6 +85,10 @@ legend {
   display: block;
 }
 
+@font-face {
+  src: url("../fonts/GrtskGiga-Bold.ttf") format("truetype");
+  font-family: Grtsk Giga;
+}
 .container {
   background: no-repeat url("../img/bg.jpg");
   height: 1117px;
@@ -92,11 +96,11 @@ legend {
 }
 .container .main .mainTitle {
   color: #FFF;
-  font-family: Grtsk Giga;
+  font-family: "Grtsk Giga";
   font-size: 64px;
   font-style: normal;
-  font-weight: 700;
   line-height: normal;
+  width: 770px;
 }
 
 /*# sourceMappingURL=main.css.map */
