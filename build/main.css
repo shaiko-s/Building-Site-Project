@@ -90,5 +90,13 @@ legend {
   height: 1117px;
   position: relative;
 }
+.container .main .mainTitle {
+  color: #FFF;
+  font-family: Grtsk Giga;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
 /*# sourceMappingURL=main.css.map */
