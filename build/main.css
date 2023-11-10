@@ -94,6 +94,20 @@ legend {
   height: 1117px;
   position: relative;
 }
+.container .header .logo {
+  width: 379px;
+  height: 55px;
+}
+.container .header .logo img {
+  float: left;
+  margin: 8px auto 9px auto;
+}
+.container .header .logo span {
+  font-size: 14px;
+}
+.container .header .logo h2 {
+  font-size: 25px;
+}
 .container .main .mainTitle {
   color: #FFF;
   font-family: "Grtsk Giga";
