@@ -6,32 +6,84 @@
 
 .container
     background: no-repeat url("../img/bg.jpg")
+    width: 1728px
     height: 1117px
     position: relative
+    margin: 0 auto
+    display: flex
+    flex-direction: column
+    border-radius: 30px
     
     .header
+        margin-top: 42px
+        margin-left: 144px
+        display: flex
+        justify-content: flex-start
 
-        .logo
+        .logoName
             width: 379px
             height: 55px
-            margin: 42px auto auto 144px
             
             img
                 float: left
-                margin: 8px auto 9px auto
+                margin: 4px 15px 9px auto
 
             .top
                 font-size: 14.2px
                 font-weight: 400
                 font-family: "Inter", sans-serif
+                color: #FFF
             
+            .first
+                color: #b3feff
+            
+            .second
+                color: #FFF
+
             .bottom
                 font-size: 25px
                 font-weight: 700
                 font-family: "Inter", sans-serif
 
 
+        .email
+            display: flex
+            align-items: center
+            padding-left: 105px
+            padding-right: 406px
+            
+            .iconWrap
+                border: 1px #ffffff69 solid
+                width: 38px
+                height: 38px
+                border-radius: 50%
+                float: left
+                padding-top: 11px
+                padding-left: 11px
+
+            .emailAdress
+                color: #FFF
+                font-size: 16px
+                font-family: Inter
+                font-weight: 400
+                padding-left: 15.5px
+
+        .right-menu
+            display: flex
+            align-items: center
+
+            .phone
+                font-size: 16px
+                font-weight: 500
+                font-family: "Inter", sans-serif
+                color: #FFF
+
+                span:first-child
+                    margin-right: 15px
+
     .main
+        margin-top: 63px
+        margin-left: 144px
 
         .mainTitle
             color: #FFF
@@ -40,3 +92,13 @@
             font-style: normal
             line-height: normal
             width: 770px
+
+        .description
+            width: 486px
+            height: 103px
+            color: #FFF
+            font-family: Inter
+            font-size: 16px
+            font-weight: 400
+            margin-left: 283px
+            margin-top: 26px
