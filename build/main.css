@@ -144,6 +144,12 @@ legend {
   flex-direction: column;
   border-radius: 30px;
 }
+.container .piece {
+  position: absolute;
+  top: 438px;
+  left: 1376px;
+  z-index: 50;
+}
 .container .header {
   margin-top: 42px;
   margin-left: 144px;
