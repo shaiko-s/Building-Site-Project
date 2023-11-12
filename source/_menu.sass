@@ -5,6 +5,9 @@
     gap: 29px
     z-index: 2
 
+    a:not(.active):hover
+            transform: rotate(-4.2deg)
+
     .menu-item
         width: 215px
         height: 166px
@@ -37,3 +40,26 @@
             font-style: normal
             font-weight: 500
             line-height: normal
+            
+
+            // .menu-item__spot path
+            //     fill: #DCEEFF
+
+            // .menu-item__title
+            //     color: #1E1E1E
+
+            // svg g path
+            //     fill: #108CFF
+
+    .menu-item--active
+        transform: rotate(-4.2deg)
+        background: #FFF
+
+        .menu-item__spot path
+            fill: #DCEEFF
+
+        .menu-item__title
+            color: #1E1E1E
+
+        svg g path
+            fill: #108CFF
